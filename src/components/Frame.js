@@ -1,7 +1,13 @@
+import './Styles.css';
+
+import Taskbar from './Taskbar';
+
 function Frame() {
-    <div className="frame">
-        <h1>This is my awesome frame</h1>
-    </div>
+    return (
+        <div className="frame">
+            <Taskbar />
+        </div>
+    )
 }
 
 export default Frame;
